@@ -73,6 +73,7 @@
     });
   }
 
+  console.log("Promise Test");
   // Your custom JavaScript goes here
   get('/tmp/story.json').then(function(response) {
 		console.log("Success!", response);
